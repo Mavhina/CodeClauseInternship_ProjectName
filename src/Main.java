@@ -1,12 +1,6 @@
-import Designs.GUISetup;
 import javafx.application.Application;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
-
-/**
- * 
- * @author mavhinamulisa
- * @version Airline Reservation System
- */
 
 public class Main extends Application {
 
@@ -16,11 +10,14 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Airline Reservation System");
+    	
+    	// Set up the scene and the stage
+        primaryStage.setTitle("Simple Notepad");
 
-        //Create an instance of GUISetup to set up the GUI
-        GUISetup guiSetup = new GUISetup(primaryStage);
-        guiSetup.setupMainScene();
+        NoteTaking noteTaking = new NoteTaking();
+
+        Scene scene = new Scene(noteTaking.getRoot(), 600, 400);
+        primaryStage.setScene(scene);
 
         primaryStage.show();
     }
