@@ -6,6 +6,12 @@ import javafx.stage.FileChooser;
 
 import java.io.*;
 
+
+/**
+ * 
+ * @author mavhinamulisa
+ *
+ */
 public class NoteTaking {
 
 	// Global Variables
