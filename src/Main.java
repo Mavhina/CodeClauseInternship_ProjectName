@@ -1,28 +1,36 @@
+import codeclause.resume.gui.ResumePane;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+
 /**
  * 
- * @author mavhinamulisa
- *
  */
-public class Main extends Application {
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+/**
+ * @author mavhinamulisa
+ * 
+ */
+public class Main extends Application{
 
-    @Override
-    public void start(Stage primaryStage) {
-    	
-    	// Set up the scene and the stage
-        primaryStage.setTitle("Simple Notepad");
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		launch(args);
 
-        NoteTaking noteTaking = new NoteTaking();
+	}
 
-        Scene scene = new Scene(noteTaking.getRoot(), 600, 400);
-        primaryStage.setScene(scene);
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		// TODO Auto-generated method stub
+		
+		ResumePane root = new ResumePane();
+		Scene sc = new Scene(root, 1070, 600);
+		primaryStage.setTitle("Online Resume Builder");
+		primaryStage.setScene(sc);
+		primaryStage.show();
+	}
 
-        primaryStage.show();
-    }
 }
