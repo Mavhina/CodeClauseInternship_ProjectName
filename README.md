@@ -1,39 +1,16 @@
-# CodeClauseInternship_ProjectName
+# Scientific Calculator with Unit Conversion
 
-# Java Applications Repository
+The Scientific Calculator is a JavaFX application that provides a versatile calculator with three main functionalities: standard calculation, scientific calculation, and unit conversion. This calculator supports a wide range of mathematical operations, making it a handy tool for various tasks.
 
-This repository contains a collection of Java applications that demonstrate various functionalities and concepts. Each application is designed to showcase specific features and can be used as standalone projects.
+## Features
 
-## Applications
+1. **Standard Calculation:** Perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-### 1. Online Resume Builder
+2. **Scientific Calculation:** Access advanced mathematical functions, including trigonometric, logarithmic, exponential, and more.
 
-- An application that allows users to create and customize their resumes.
-- Features include adding personal details, education, work experience, skills, and more.
-- Easily export the generated resume as a PDF file.
+3. **Unit Conversion:** Convert between different units for length, weight, temperature, and more.
 
-### 2. Airline Reservation System
+## Prerequisites
 
-- A comprehensive system for managing airline reservations.
-- Users can book flights, and manage their bookings.
-- Admin functionality for managing flights, seats, and reservations.
-
-### 3. Note-Taking Application
-
-- A simple notepad application built using JavaFX.
-- Provides basic text editing functionalities such as creating a new file, opening existing files, saving, copying, pasting, and deleting text.
-
-### 4. Scientific Calculator
-
-- A scientific calculator application that supports standard and scientific calculations.
-- Includes functions for basic arithmetic, trigonometry, logarithms, and more.
-
-## Getting Started
-
-To run any of the applications, follow the instructions in their respective README files located in each application's directory.
-
-## Contributing
-
-If you'd like to contribute to the project, feel free to fork the repository, make your changes, and submit a pull request.
-
-
+- Java Development Kit (JDK) installed on your machine.
+- JavaFX library (included in JavaFX SDK or as a separate library).
